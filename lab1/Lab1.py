@@ -11,7 +11,7 @@ def q1():
     img1 = cv2.imread('DataSamples/1.png',0)
     img2 = cv2.imread('DataSamples/2.png',0)
     
-    # Remember to crop images to remain the same size
+    # Defaultly, the size of the two images are same, otherwide, cropping need to be done.
     img1_tmp = img1.copy()
     img2_tmp = img2.copy()
     
