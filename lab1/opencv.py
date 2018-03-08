@@ -8,7 +8,7 @@
 import cv2
 
 # Load an color image in grayscale
-img1 = cv2.imread('DataSamples/2.png',0) # must be in full path name
+img1 = cv2.imread('DataSamples/2.png',0) 
 
 # Display the image
 cv2.imshow('image1',img1)
